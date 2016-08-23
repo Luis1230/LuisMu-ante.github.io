@@ -1,0 +1,449 @@
+IMG.imgcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+} 
+
+section{
+	text-align: center;
+	color: white;
+	padding-top: 25px;
+}
+
+.pp{
+	font-size: 45px;
+
+}
+
+nav li{
+	display: inline-block;
+	padding: 5px;
+	color: white;
+
+}
+ul{
+	text-align: center;
+}
+
+li::after{
+	content: "  ";
+	color: #A54BFF;
+}
+
+li:last-child::after{
+	content: "";
+}
+
+nav a {
+	color: white;
+}
+
+.ColorArticle{
+	background-color: #232323;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+table{
+	background-color: #000000;
+	padding-bottom: : 80px;
+}
+
+.a{
+	text-decoration: none;
+}
+
+footer li::after{
+	content: " ";
+	color: #A54BFF;
+}
+
+header li::after{
+	content: " ";
+	color: #A54BFF;
+}
+
+.pa{
+	color: white;
+	text-align: center;
+	font-size: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo2{
+	width: 150px;
+	margin-left: -30px;
+	margin-bottom: 90px;
+}
+
+footer ul {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding-left: 30px;
+	margin-left: 5px;
+	margin-top: 20px;
+
+}
+
+footer li{
+	list-style-type: none;
+	padding-top: 20px;
+	color: #232323;
+	text-align: center;
+
+}
+
+.alinear{
+	margin-top: -25px;
+
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover{
+	color: #9bf0e1;
+}
+
+ .section4 a{
+	color: white;
+	text-decoration: none;
+	font-size: 60px;
+	transition: color 10s ease;
+
+}
+
+.section4 ul li {
+	display: inline-block;
+	padding-left: 80px;
+}
+
+.section4 a :hover{
+	color: #9bf0e1;
+}
+
+.section4 i{
+	text-align: left;
+}
+
+table{
+	padding-bottom: 80px;
+	padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*AVERIGUAR LOS DISPLAY PARA QUE SON
+el inline block ayuda a que todo dentro de una ul
+ se ponga al costadito
+ ID UNICO #
+ CLASS VARIOS .
+ padding dentro   margin fuera
+ TOP LEFT BOTTOM RIGHT EN CASO SEA DIFERENTE
+ SI QUIERO ARRIAB-ABAJO   DERECHA.IZQUIERDa
+ 1. La última regla chanca a todos
+ 2. La mas especifica chanca
+ 3. ID chanca a todas las reglas
+ */
+section{
+	/*background-image: url("https://d2c87l0yth4zbw-2.global.ssl.fastly.net/i/home/bg-albums.png");*/
+}
+
+
+header{
+	background-color: black;
+	opacity: 0.90;
+	height: 80px;
+	padding: 0 60px;
+	float: left;
+	width: 100%;
+	box-sizing: border-box; /*content-box ancho=width+padding+border
+	border-box ancho=width*/
+}
+
+header nav{
+	/*display:inline-block;
+	vertical-align: top;*/
+	float: right;
+}
+
+header nav li{
+	display: inline-block;
+	line-height: 80px; /*CENTRAS TODO LO QUE ESTA DENTRO*/
+
+}
+
+header nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+header nav a{
+	color: silver;
+	text-decoration: none;
+	margin-left: 15px;
+	transition: color 1s ease;
+	/* son 3 valores -- a que-- cuanto tiempo--- en que forma*/
+}
+
+header nav a:hover{
+	color:#1ed760;
+}
+
+.logo{
+	width: 100px;
+	margin-top: 25px;
+	color: white;
+	cursor: pointer;
+	/*margin-left: 25px;*/
+}
+
+.main{
+	padding-bottom: 200px;
+	padding-top: 200px;
+	text-align: center;
+	background-image: url("https://d2c87l0yth4zbw-2.global.ssl.fastly.net/i/home/bg-albums.png"), linear-gradient(#eb01a5,#BA55D3);
+}
+
+.btn{
+	border-radius: 15px;
+	color: white;
+	background-color: transparent;
+	padding:  5px 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin:0 10px;
+}
+
+.btn.blue{
+	background-color: #6207E3;
+}
+section  h1{
+ 	color: white;
+ 	font-size: 70px;
+ }
+ /*--------------------------------------*/
+
+section h3,h2{
+ 	color:#8738F8;
+ }
+section h2{
+ 	font-size: 50px;
+ }
+section h3{
+ 	font-size: 40px;
+ }
+
+.contenido{
+	display: inline-block;
+	width: 550px;
+	margin-left: 100px;
+}
+.seccion1{
+
+	padding-bottom: 80px;
+	padding-top: 80px;
+	/*box-sizing:border-box;*/
+}
+
+/*---------------------------------*/
+.promocion{
+	padding-bottom: 80px;
+	padding-top: 30px;
+	text-align: left;
+	background-image: url("https://d2c87l0yth4zbw-2.global.ssl.fastly.net/i/home/bg-albums.png"), linear-gradient(#eb01a5,#BA55D3);
+}
+.info{
+	width: 700px;
+	padding: 0 90px;
+	display: inline-block;
+}
+
+/*--------------------------------------*/
+footer{
+	background-color: black;
+	color: white;
+	padding: 20px 90px;
+
+}
+
+.pie li{
+	list-style-type: none;
+}
+
+.pie li a{
+	text-decoration: none;
+	color: white;
+}
+
+.pie{
+	display: inline-block;
+	padding: 15px 15px;
+}
+
+section p{
+	color: #000000;
+	text-align: left;
+}
+
+/*article {
+	text-align: center;
+	color: #DDD;
+}
+
+article i, article .fa {
+	font-size: 2em;
+}
+
+article a {
+	color: #DDD;
+	text-decoration: none;
+}-*/
+
+article a:hover {
+	color: #9bf0e1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+	padding:0 25px;
+	background-color: black;
+	height: 80px;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+	opacity: 0.7;
+	 /*Box sizing
+	content-box
+	ancho = width + padding + border
+	boder-box
+	ancho = width
+	 */
+}
+
+.colora{
+	color: white;
+
+}
+
+.h4color{
+	color: #9BF0E1;
+
+}
+
+
+.ppapa{
+	color: white;
+
+}
+.main2{
+	padding: 150px 100px;
+	text-align: left;
+	padding-bottom: 200px;
+	padding-top: 200px;
+	background-image: url("https://d2c87l0yth4zbw-2.global.ssl.fastly.net/i/home/bg-albums.png"), linear-gradient(#eb01a5,#BA55D3);
+
+}
+.content3{
+	padding-right:750px
+	text-align: center;
+	
+}
+.h2{
+	font-size: 30px;
+	color: white;
+}
+.h3{
+	font-size: 25px;
+	color: #9bf0e1;
+}
+.pap{
+	font-size: 20px;
+	color: white;
+}
+.imge3{
+	float: right;
+	margin-top: -50px;
+}
+
+
+
